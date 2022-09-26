@@ -3,21 +3,30 @@
         <title>
             Inicio
         </title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <!-- <style>
+            #div_temas {
+                display: none;
+            }
+        </style> -->
     </head>
     <body>
         <div style="width: 900px; margin: 10px auto;">
+
             <header>
                 <h1 style="padding-bottom: 15px; text-align: center; border-bottom: 1px solid;">Apple.com</h1>
                 <p style="text-align: center;">Productos TOP</p>
             </header>
+
             <main>
-                <div>
+                <div id="div_temas" style="display: block;">
                     <h4>Temas</h4>
                     <ul>
                         <li><a href="./formulario.html">Formulario</a></li>
                         <li><a href="./tablas.html">Tablas</a></li>
                     </ul>
                 </div>
+
                 <table>
                     <tbody>
                         <tr>
@@ -48,11 +57,45 @@
                         </tr>
                     </tbody>
                 </table>
+                <h1 class="titulo" role="titulo">Samsung.com</h1>
+                <h1 class="titulo" role="titulo" id="titulo-huawei">Huawei.com</h1>
+                <h2>Jerarquias de CSS:</h2>
+                <table class="big-table">
+                    <tr>
+                        <th>Metodo</th>
+                        <th>Simbolo</th>
+                        <th>Peso</th>
+                    </tr>
+                    <tr>
+                        <td>Selector de elemento</td>
+                        <td>Elemento</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Selector de clase</td>
+                        <td>.class_name</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Selector de atributo</td>
+                        <td>selector[atributo]</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Selector de ID</td>
+                        <td>#id_name</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>HTML Style</td>
+                        <td>style=""</td>
+                        <td>5</td>
+                    </tr>
+                </table>
             </main>
             <footer>
                 <p style="text-align: center;">Hecho con cariño por CÓDIGO</p>
             </footer>
         </div>
-        
     </body>
 </html>
