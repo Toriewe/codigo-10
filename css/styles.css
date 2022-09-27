@@ -5,8 +5,12 @@ h1{
     color: LimeGreen;
     background-color: cornflowerblue;
     padding: 20px;
-    text-align: center;;
+    text-align: center;
+    font-size: 3rem;
 }
+
+/* rem = tamaño de la raiz */
+/* em = tamaño del contenedor padre */
 
 #div_temas {
     display: none !important;
@@ -19,6 +23,17 @@ h1{
     margin: 20px;
 }
 
+.product_cell:hover {
+    border: 2px dashed Indigo;
+    box-shadow: 0px 0px 10px MediumPurple;
+    cursor: pointer;
+}
+
+.product_cell:hover > img {
+    opacity: 50%;
+    border: 4px solid black;;
+}
+
 .laptop > h2 {
     color: RoyalBlue;
 }
@@ -28,6 +43,70 @@ h1{
     text-align: right;
     padding-right: 10px;
 }
+
+.celular > h2 {
+    color: red;
+}
+
+.celular > h3 {
+    color: brown;
+}
+
+.audi > h2 {
+    color: green;
+}  
+
+.audi > h3 {
+    color: LightSteelBlue;
+} 
+
+.div_form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.div_form > form > input {
+    height: 40px;
+    border: 1px solid MediumTurquoise;
+    border-radius: 20px;
+    width: 70%;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.div_form >form >input:focus{
+    border: 2px solid blue;
+}
+
+.div_form > form > button {
+    height: 40px;
+    border: 1px solid SteelBlue;
+    border-radius: 20px;
+    width: 20%;
+}
+
+.div_form > form > button:hover {
+    background-color: DodgerBlue;
+    color: White;
+    cursor: pointer;
+}
+
+.div_form > form > button:focus {
+    border: 2px solid red;
+}
+
+/* Pseudo-elementos */
+.price::before {
+    content: "$ ";
+    font-size: 12px;
+}
+
+.price::after {
+    content: ".00";
+    font-size: 12px;
+}
+
 
 
 /* h1[role="titulo"] {
