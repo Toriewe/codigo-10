@@ -8,30 +8,26 @@ h1{
     text-align: center;;
 }
 
-h1[role="titulo"] {
+/* h1[role="titulo"] {
     color: black;
-}
+} */
 
 /* Selector de clase */
-.titulo {
+/* .titulo {
     color: brown;
     font-size: 30px;
     background-color: cadetblue;
-}
+} */
 
 /* Selector de ID */
-#titulo-huawei{
+/* #titulo-huawei{
     color: chartreuse;
-}
+} */
 
-#div_temas {
-    display: none !important;
-}
-
-.big-table {
+/* .big-table {
     font-size: 30px;
     border: 1px solid #ccc;
-}
-.big-table th, td {
+} */
+/* .big-table th, td {
     padding: 20px;
-}
+} */
