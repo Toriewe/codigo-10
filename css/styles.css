@@ -2,11 +2,33 @@
 /* Selectores de elemento */
 
 h1{
-    color: slategray;
+    color: LimeGreen;
     background-color: cornflowerblue;
     padding: 20px;
     text-align: center;;
 }
+
+#div_temas {
+    display: none !important;
+}
+
+.product_cell {
+    border: 2px solid Crimson;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.laptop > h2 {
+    color: RoyalBlue;
+}
+
+.laptop >h3 {
+    color: Salmon;
+    text-align: right;
+    padding-right: 10px;
+}
+
 
 /* h1[role="titulo"] {
     color: black;
